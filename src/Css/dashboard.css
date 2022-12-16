@@ -1,0 +1,63 @@
+.dashboard .sidebar {
+  min-height: 84.5vh !important;
+  background-color: rgb(194, 236, 194);
+  transition: transform 1s;
+}
+.dashboard .sidebar .link {
+  text-decoration: none;
+  color: #1170be;
+  display: block;
+  padding: 1.5rem 1rem;
+  border-bottom: 1px solid #1170be;
+}
+.list {
+  position: absolute !important;
+  top: 13%;
+  left: 0;
+  cursor: pointer;
+  display: none !important;
+  z-index: 1;
+}
+.sidebar .sideclose {
+  position: absolute !important;
+  top: 0.5rem;
+  left: 9rem;
+  z-index: 1 !important;
+}
+.active {
+  font-weight: bolder;
+}
+
+@media (max-width: 1023px) {
+  .sidebar {
+    width: 25%;
+  }
+  .main {
+    width: 75%;
+  }
+}
+
+@media (max-width: 700px) {
+  .sidebar {
+    width: 30%;
+  }
+  .main {
+    width: 70%;
+  }
+}
+
+@media (max-width: 570px) {
+  .sidebar {
+    position: fixed;
+    transform: var(--trans);
+    width: 12rem;
+    height: 88.5vh;
+    z-index: 1;
+  }
+  .main {
+    width: 100%;
+  }
+  .list {
+    display: inline !important;
+  }
+}

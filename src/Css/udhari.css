@@ -1,0 +1,32 @@
+.udharidashboard {
+  position: absolute;
+  overflow-y: scroll;
+  min-height: 84.5vh;
+  max-height: 84.5vh;
+  width: 100%;
+  top: 0;
+  left: 0;
+  margin-bottom: 2rem;
+}
+.udharidashboard::-webkit-scrollbar {
+  display: none;
+}
+.note {
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+  padding: 1rem;
+  border-radius: 10px;
+}
+.note p {
+  word-break: break-all;
+}
+.edit {
+  cursor: pointer;
+}
+
+@media (max-width: 570px) {
+  .udharidashboard {
+    position: relative;
+    min-height: 69vh;
+    max-height: 100%;
+  }
+}

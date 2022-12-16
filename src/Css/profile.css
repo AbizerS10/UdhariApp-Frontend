@@ -1,0 +1,42 @@
+.personal {
+  width: 90%;
+  padding: 1rem;
+  margin: auto;
+  border: 1px solid black;
+  position: relative;
+  border-radius: 10px;
+}
+.heading {
+  background-color: white;
+  padding: 0 0.5rem;
+  position: absolute;
+  top: -7%;
+  left: 1%;
+}
+.heading2 {
+  top: -10%;
+}
+.eye {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+@media (max-width: 660px) {
+  .personal label {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .personal .formdiv {
+    flex-direction: column !important;
+  }
+  .personal .formdiv div {
+    width: 100% !important;
+    margin-left: 0 !important;
+  }
+  .heading {
+    top: -5%;
+  }
+}

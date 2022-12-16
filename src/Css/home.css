@@ -1,0 +1,35 @@
+.home {
+  background-color: rgb(194, 236, 194);
+  width: 100%;
+  padding-top: 2.5rem;
+  padding-bottom: 5rem;
+  border-bottom-left-radius: 30%;
+  border-bottom-right-radius: 30%;
+}
+.intro {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.intro h1 {
+  color: green;
+  font-weight: bold;
+}
+.intro p {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #1170be;
+}
+.intro a {
+  width: 9rem;
+  text-align: center;
+  text-decoration: none;
+  padding: 0.5rem;
+  border: 2px solid #1170be;
+  border-radius: 2rem;
+  transition: 0.5s;
+}
+.intro a:hover {
+  background-color: #1170be;
+  color: aliceblue;
+}
